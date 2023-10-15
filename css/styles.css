@@ -62,3 +62,72 @@ h1 {
 .banner-content > * {
     margin-bottom: 20px;
 }
+
+/***/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    
+}
+
+#course-content {
+    width: 792px;
+}
+
+#course-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: left;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.modules-list .module{
+    padding:  16px 127px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: linear-gradient(0deg, #252525, #252525),
+                linear-gradient(0deg, #33A8DB, #33A8DB);
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+    margin-bottom: 20px;
+}
+
+section > * {
+    margin-bottom: 20px;
+}
+
+.modules-list span {
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(0deg, #33A8DB, #33A8DB),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
