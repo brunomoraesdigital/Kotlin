@@ -86,8 +86,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
-    
 }
 
 #course-content p {
@@ -160,7 +158,10 @@ section > * {
     text-shadow: 3px 2px #33A8DB;
     left: 50px;
 }
-
+#professional-challenges h2 {
+    width: 792px;
+    text-align: center;
+}
 #professional-challenges p {
     width: 792px;
     font-weight: 400;
