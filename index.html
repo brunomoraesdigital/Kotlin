@@ -52,8 +52,17 @@
     </section>
   </main>
   <footer>
-    <img class="dio-logo" src="images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
+    <img class="dio-logo" src="images/dio-logo.png" title="Logotipo DIO com o texto make the change"
+      alt="Logotipo DIO com o texto make the change">
     <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <br>
+    <p class="meuLink"><span class="intervalo" id="ano-atual">Copyright © 2021 </span> <a href="https://bmfolio.web.app/">Bruno Moraes</a>
+    </p>
   </footer>
+  <script>
+    const anoAtualElement = document.getElementById("ano-atual");
+    const anoAtual = new Date().getFullYear();
+    anoAtualElement.textContent = `Copyright © ${anoAtual}`;
+  </script>
 </body>
 </html>

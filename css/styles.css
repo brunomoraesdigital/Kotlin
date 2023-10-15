@@ -3,6 +3,8 @@
 * {
 	box-sizing: border-box;
 }
+
+
 html {
     font-size: 1rem;
 }
@@ -13,8 +15,6 @@ body {
 }
 .banner {
     border-bottom: 1px solid rgba(51, 168, 219, 1);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
-
 }
 .banner-content {
     display: flex;
@@ -147,7 +147,9 @@ section > * {
     background-attachment: fixed;
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
-    padding: 200px;
+    padding: 60px;
+    align-items: start;
+    justify-content: center;;
 }
 
 #transform-world p {
@@ -173,3 +175,18 @@ footer {
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
 }
+
+a:link {text-decoration: none; color: #f00;}
+a:visited {text-decoration: none; color: #f00;}
+a:hover {text-decoration: none; color: #f00;}
+a:active {text-decoration: none; color: #f00;}
+
+.meuLink {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+}
+.meuLink a:link {text-decoration: underline; color: #fff;}
+.meuLink a:visited {text-decoration: underline; color: #fff;}
+.meuLink a:hover {text-decoration: underline; color: #fff;}
+.meuLink a:active {text-decoration: underline; color: #fff;}
+.meuLink a {}
