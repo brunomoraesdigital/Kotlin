@@ -26,11 +26,11 @@ body {
     background-repeat: no-repeat;
 }
 h1 {
+    text-align: center;
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 47px;
     letter-spacing: 0em;
-    text-align: left;
     text-transform: uppercase;
     background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     background-clip: text;
@@ -39,12 +39,12 @@ h1 {
 }
 
 .banner-content p {
-    width: 515px;
+    width: 70vw;
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0;
-    text-align: center;
+    text-align: center; 
 }
 
 .banner-content button {
@@ -89,7 +89,7 @@ section {
 }
 
 #course-content p {
-    width: 792px;
+    width: 98vw/*792px*/;
     font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
@@ -102,7 +102,7 @@ h2 {
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0.19em;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     background-clip: text;
@@ -111,7 +111,7 @@ h2 {
 }
 
 .modules-list .module{
-    padding:  16px 127px;
+    padding:  16px 20px;
     border-radius: 57px;
     border: 1px solid #33A8DB;
     background: linear-gradient(0deg, #252525, #252525),
@@ -128,7 +128,6 @@ section > * {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    text-align: left;
     background: linear-gradient(0deg, #33A8DB, #33A8DB),
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
     background-clip: text;
@@ -154,16 +153,19 @@ section > * {
     font-weight: 900;
     font-size: 2.5rem;
     text-transform: lowercase;
-    max-width: 250px;
+    max-width: 15.625rem;
     text-shadow: 3px 2px #33A8DB;
     left: 50px;
 }
 #professional-challenges h2 {
-    width: 792px;
+    width: 98vw/*792px*/;
     text-align: center;
 }
+#professional-challenges img {
+    width: 98vw;
+}
 #professional-challenges p {
-    width: 792px;
+    width: 98vw;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
