@@ -21,14 +21,14 @@ class MainActivity : ComponentActivity() {
                 // Aplicando fundo preto no Box
                 Box(
                     modifier = Modifier
-                        .fillMaxSize()  // Preenche toda a tela
-                        .background(Color.Black), // Aplica fundo preto
+                        .fillMaxSize()  // Preenche toda a tela.
+                        .background(Color.Black), // Aplica fundo preto.
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
                         text = "🚀",  // Emoji
-                        fontSize = 96.sp,   // Tamanho do emoji
-                        color = Color.White // Cor do emoji (branco)
+                        fontSize = 96.sp,   // Tamanho do emoji.
+                        color = Color.White // Cor do emoji (branco).
                     )
                 }
             }
